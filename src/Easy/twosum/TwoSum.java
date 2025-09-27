@@ -10,6 +10,16 @@ public class TwoSum {
         System.out.println("[" + answer[0] + ", " + answer[1] + "]");
     }
 
+    /**
+     * O(n) time | O(n) space
+     * - HashMap :
+     *   - containsKey() - O(1)
+     *   - put() - O(1)
+     *
+     * - forLoop - O(n)
+     *
+     * Total - O(n)
+     */
     public class Solution{
         public static int[] twoSum(int[] nums, int target){
             Map<Integer, Integer> map = new HashMap<>();
