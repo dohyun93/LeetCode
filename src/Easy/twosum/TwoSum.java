@@ -11,14 +11,8 @@ public class TwoSum {
     }
 
     /**
-     * O(n) time | O(n) space
-     * - HashMap :
-     *   - containsKey() - O(1)
-     *   - put() - O(1)
-     *
-     * - forLoop - O(n)
-     *
-     * Total - O(n)
+     * HashMap을 이용한 풀이.
+     * 시간복잡도 O(n)
      */
     public class Solution{
         public static int[] twoSum(int[] nums, int target){
